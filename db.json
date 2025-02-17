@@ -1,0 +1,75 @@
+{
+	"products": [
+	  {
+		"id": 1,
+		"name": "Camiseta Preta",
+		"description": "Camiseta de algodão, confortável e durável, modelo unissex.",
+		"price": 29.99,
+		"stock": 50,
+		"category": "Vestuário",
+		"supplier_id": 1,
+		"barcode": "1234567890123",
+		"image_url": "http://example.com/camiseta_preta.jpg"
+	  },
+	  {
+		"id": 2,
+		"name": "Tênis Esportivo",
+		"description": "Tênis com solado antiderrapante e ótimo para práticas esportivas.",
+		"price": 149.99,
+		"stock": 20,
+		"category": "Calçados",
+		"supplier_id": 2,
+		"barcode": "9876543210987",
+		"image_url": "http://example.com/tenis_esportivo.jpg"
+	  },
+	  {
+		"id": 3,
+		"name": "Mochila Escolar",
+		"description": "Mochila para escola, com vários compartimentos e estrutura resistente.",
+		"price": 89.99,
+		"stock": 30,
+		"category": "Acessórios",
+		"supplier_id": 1,
+		"barcode": "1122334455667",
+		"image_url": "http://example.com/mochila_escolar.jpg"
+	  }
+	],
+	"categories": [
+	  { "id": 1, "name": "Vestuário", "description": "Roupas, camisetas, calças, e acessórios." },
+	  { "id": 2, "name": "Calçados", "description": "Tênis, sapatos, chinelos e sandálias." },
+	  { "id": 3, "name": "Acessórios", "description": "Mochilas, bolsas, carteiras e outros itens." }
+	],
+	"suppliers": [
+	  { "id": 1, "name": "Fornecedor A", "contact": "contato@fornecedora.com", "phone": "123-456-7890", "address": "Rua X, 123, Cidade Y" },
+	  { "id": 2, "name": "Fornecedor B", "contact": "fornecedor@b.com", "phone": "987-654-3210", "address": "Avenida Z, 456, Cidade W" }
+	],
+	"transactions": [
+	  {
+		"id": 1,
+		"product_id": 1,
+		"quantity": 10,
+		"type": "entrada",
+		"date": "2025-02-17",
+		"total_value": 299.90,
+		"supplier_id": 1
+	  },
+	  {
+		"id": 2,
+		"product_id": 2,
+		"quantity": 5,
+		"type": "saída",
+		"date": "2025-02-17",
+		"total_value": 749.95
+	  },
+	  {
+		"id": 3,
+		"product_id": 3,
+		"quantity": 2,
+		"type": "entrada",
+		"date": "2025-02-16",
+		"total_value": 179.98,
+		"supplier_id": 1
+	  }
+	]
+  }
+  
